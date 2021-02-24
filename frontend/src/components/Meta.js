@@ -1,5 +1,5 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
+import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const Meta = ({ title, description, keywords }) => {
   return (
@@ -8,13 +8,13 @@ const Meta = ({ title, description, keywords }) => {
       <meta name='description' content={description} />
       <meta name='keywords' content={keywords} />
     </Helmet>
-  )
-}
+  );
+};
 
 Meta.defaultProps = {
-  title: 'Welcome To Proshop',
-  keywords: 'electronics, buy electronics, cheap electronics',
-  description: 'We sell the best products for cheap',
-}
+  title: 'Welcome To BestTaste',
+  keywords: 'Seafood Paella, Wild Musshroom Risotto, Uzbek Pilov',
+  description: 'We sell the best products in Woodgreen area',
+};
 
-export default Meta
+export default Meta;
