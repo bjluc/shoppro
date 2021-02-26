@@ -20,9 +20,13 @@ h2 {
   margin: 0.1rem;
 }
 
+/* .card-size {
+  height: 400px;
+} */
+
 /* carousel */
 .caroussel-bg {
-  background-color: coral;
+  background-color: rgb(252, 148, 110);
 }
 .carousel-item-next,
 .carousel-item-prev,
